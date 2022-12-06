@@ -12,7 +12,7 @@ export class ViewComponent {
     api.fetchCourse().subscribe(
       (response)=>
       {
-        this.datas=response
+        this.datas=response;
       }
     )
   }
