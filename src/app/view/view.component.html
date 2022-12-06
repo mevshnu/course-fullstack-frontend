@@ -13,12 +13,12 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                    <tr *ngFor="let i of data">
+                        <td>{{i.courseTitle}}</td>
+                        <td>{{i.courseDescription}}</td>
+                        <td>{{i.courseVenue}}</td>
+                        <td>{{i.courseDuration}}</td>
+                        <td>{{i.courseDate}}</td>
                     </tr>
                 </tbody>
             </table>

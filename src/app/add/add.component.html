@@ -5,26 +5,26 @@
             <div class="row">
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">courseTitle</label>
-                    <input type="text" class="form-control">
+                    <input name="courseTitle" [(ngModel)]="courseTitle" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">courseDescription</label>
-                    <input type="text" class="form-control">
+                    <input name="" [(ngModel)]="" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">courseVenue</label>
-                    <input type="text" class="form-control">
+                    <input name="courseDescription" [(ngModel)]="courseDescription" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">courseDuration</label>
-                    <input type="text" class="form-control">
+                    <input namecourseDuration [(ngModel)]="courseDuration" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">courseDate</label>
-                    <input type="text" class="form-control">
+                    <input name="courseDate" [(ngModel)]="courseDate" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <button class="btn btn-success">Add</button>
+                    <button (click)="readValue()" class="btn btn-success">Add</button>
                 </div>
             </div>
         </div>
