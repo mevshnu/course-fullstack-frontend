@@ -2,18 +2,18 @@
 <div class="container">
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <div class="row">
+            <div class="row g-3 mt-4">
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">courseTitle</label>
                     <input name="courseTitle" [(ngModel)]="courseTitle" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">courseDescription</label>
-                    <input name="" [(ngModel)]="" type="text" class="form-control">
+                    <input name="courseDescription" [(ngModel)]="courseDescription" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">courseVenue</label>
-                    <input name="courseDescription" [(ngModel)]="courseDescription" type="text" class="form-control">
+                    <input name="courseVenue" [(ngModel)]="courseVenue" type="text" class="form-control">
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label">courseDuration</label>
@@ -23,7 +23,7 @@
                     <label for="" class="form-label">courseDate</label>
                     <input name="courseDate" [(ngModel)]="courseDate" type="text" class="form-control">
                 </div>
-                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <button (click)="readValue()" class="btn btn-success">Add</button>
                 </div>
             </div>

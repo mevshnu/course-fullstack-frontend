@@ -12,11 +12,11 @@ import { HttpClientModule } from '@angular/common/http';
 
 const myroute:Routes=[
   {
-    path:"/",
+    path:"",
     component:ViewComponent
   },
   {
-    path:"/add",
+    path:"add",
     component:AddComponent
   }
 ]

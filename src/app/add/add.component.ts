@@ -15,15 +15,15 @@ export class AddComponent {
   constructor(private api:ApiService){}
   readValue=()=>
   {
-    let data:any={
+    let cour:any={
       "courseTitle":this.courseTitle,
       "courseDescription":this.courseDescription,
       "courseVenue":this.courseVenue,
       "courseDuration":this.courseDuration,
       "courseDate":this.courseDate}
-      console.log(data)
-      this.api.addCourse(data).subscribe(
-        (response)=>
+      console.log(cour)
+      this.api.addCourse(cour).subscribe(
+        (response:any)=>
         {
           console.log(response)
         }

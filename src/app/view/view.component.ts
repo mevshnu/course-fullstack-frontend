@@ -12,9 +12,9 @@ export class ViewComponent {
     api.fetchCourse().subscribe(
       (response)=>
       {
-        this.data=response
+        this.datas=response
       }
     )
   }
-data:any=[]
+datas:any=[]
 }
